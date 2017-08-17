@@ -1,9 +1,9 @@
-FROM jupyter/scipy-notebook:latest
+FROM jupyter/scipy-notebook:37af02395694
 
 # launchbot-specific labels
-LABEL name.launchbot.io="CompStats"
+LABEL name.launchbot.io="Understanding statistical inference with Python"
 LABEL workdir.launchbot.io="/usr/workdir"
-LABEL description.launchbot.io="CompStats"
+LABEL description.launchbot.io="Understanding statistical inference with Pytho"
 LABEL 8888.port.launchbot.io="Jupyter Notebook"
 
 # Set the working directory
