@@ -8,6 +8,8 @@ LABEL 8888.port.launchbot.io="Jupyter Notebook"
 
 # Set the working directory
 WORKDIR /home/jovyan
+
+# Add files
 COPY 2002FemPreg.dct /home/jovyan/2002FemPreg.dct
 COPY 2002FemPreg.dat.gz /home/jovyan/2002FemPreg.dat.gz
 COPY check_env.py /home/jovyan/check_env.py 

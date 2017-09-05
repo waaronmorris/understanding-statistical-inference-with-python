@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+.ipython/
+.local/
+Dockerfile_jh
+.cache/
+.jupyter/
+__pycache__/
